@@ -25,6 +25,17 @@ describe('routes', function () {
     })
   })
 
+  describe('GET /api/secretfiles', function () {
+    beforeEach(async function () {
+      route = '/api/secretfiles'
+    })
+
+    it('returns all the secretfiles', async function () {
+      await router.getRoutes[route](req, res)
+      expect(res.body).to.have.length(1)
+    })
+  })
+
   describe('POST /api/files', function () {
     beforeEach(async function () {
       route = '/api/files'

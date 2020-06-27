@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import theme from 'theme'
 
 import { ListContainer } from './List'
@@ -23,6 +23,10 @@ const Card = styled.div`
   > ${ListContainer}:last-child {
     margin-bottom: -20px;
   }
+
+  ${props => props.secretContent && css`
+    background: ${theme.colors.red};
+  `}
 `
 
 export default Card

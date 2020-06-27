@@ -21,6 +21,7 @@ function createUpdateRequest ({ url, method, onSuccess }) {
 const AllFiles = () => {
   const username = useFetch('/api/username')
   const files = useFetch('/api/files')
+  const secretFiles = useFetch('/api/secretfiles')
 
   const addFile = createUpdateRequest({
     url: '/api/files',
@@ -35,6 +36,7 @@ const AllFiles = () => {
         <AllFilesView
           addFile={addFile}
           files={files.data}
+          secretFiles={secretFiles.data}
           username={_.get(username, 'data.username')}
         />
       )}

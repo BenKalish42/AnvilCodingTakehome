@@ -14,6 +14,11 @@ function buildRoutes (router) {
     return res.send(files)
   })
 
+  router.get('/api/secretfiles', async (req, res) => {
+    const files = db.get('secretfiles').value()
+    return res.send(files)
+  })
+
   router.post('/api/files', async (req, res) => {
     const { description, file } = req.body
     const newFile = db.get('files')

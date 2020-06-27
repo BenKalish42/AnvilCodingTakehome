@@ -40,7 +40,16 @@
       "filename": "bobby-tables.jpg",
       "mimetype": "image/jpg",
       "src": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==",
-      "id": "2782386b-71c4-4f55-9423-787b6ba9886d"
+      "id": "2a4b94c2-4aac-4299-b28b-9ada60d62c36"
+    }
+  ],
+  "secretfiles": [
+    {
+      "id": "6eb00541-1fd5-4779-a155-ba0e53e0fabd",
+      "description": "A wild bill and a white walker engage in thoughtful discussion",
+      "filename": "wildbill.jpg",
+      "mimetype": "image/jpg",
+      "src": "https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/81490162_805322586544879_1000530912827927370_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=107&_nc_ohc=0KgNGvg7HvQAX_6hOZQ&oh=5eba0d1ab9c96f310090c350490e55fe&oe=5F1EF5EF"
     }
   ]
 }
