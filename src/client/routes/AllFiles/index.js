@@ -30,7 +30,7 @@ const AllFiles = () => {
 
   return (
     <FetchFeedback
-      responses={[username, files]}
+      responses={[username, files, secretFiles]}
     >
       {() => (
         <AllFilesView
